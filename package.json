@@ -1,0 +1,12 @@
+{
+  "name": "netology-test-express-sqlite-task",
+  "version": "1.0.0",
+  "description": "Simplest node + express REST API on sqlite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
