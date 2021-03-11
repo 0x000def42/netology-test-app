@@ -1,10 +1,9 @@
 const express = require('express')
 
 class BaseController {
-  path = "/"
-  router = express.Router()
-
-  constructor(){
+  constructor () {
+    this.router = express.Router()
+    this.path = '/'
     this.initRoutes()
   }
 }
