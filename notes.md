@@ -2,6 +2,17 @@
 
 Проект представляет из себя REST API на nodejs с использованием express и sqlite.
 
+Реализованы следующие endpint-ы:
+- GET /posts
+- POST /posts
+- GET /posts/:id
+- PATCH /posts/:id
+- DELETE /posts/:id
+
+Модель Post с полями title и content.
+Релазованы валидации входных параметров.
+
+
 # Об ошибках
 
 При разработке проекта на nodejs очень важно уделить внимание окружению проекта,
